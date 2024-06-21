@@ -36,7 +36,12 @@ img{max-width:100%;	height: auto;width: auto\9; /* ie8 */}
 
 a{color: #212121;text-decoration: none;}
 a:hover { transition: text-shadow 0.3s ease-in 0s, color 0.3s ease-in 0s;text-shadow: 2px 2px 0px #F9BD28;}
-
+a.active {
+	transition: text-shadow 0.3s ease-in, color 0.3s ease-in;
+	text-shadow: 2px 2px 0px #F9BD28;
+	color: #F9BD28; 
+  }
+  
 h1, h2 	{font-size: 25px;line-height: 25px;}
 h3, h4	{font-size: 20px;line-height: 20px;}
 h5, h6	{font-size: 16px;line-height: 16px;}
